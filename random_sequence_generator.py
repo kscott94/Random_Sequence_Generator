@@ -2,8 +2,8 @@ import numpy as np
 
 ### set your parameters, then hit run #############################################################
 
-NUMBER_SEQUENCES = 1    # how many random sequences do you need?
-LENGTH = [200]          # length of sequence(s) in bp. Specify length(s) in python list.
+NUMBER_SEQUENCES = 3    # how many random sequences do you need?
+LENGTH = [200, 300, 150]          # length of sequence(s) in bp. Specify length(s) in python list.
 DESIRED_GC_CONTENT = 50 # percent GC content.
 ACCEPTABLE_RANGE = 3    # accepatable upper and lower range for GC content. 
 GC_WINDOW_SIZE = 50     # window size in bp for applying GC content.
