@@ -4,8 +4,8 @@ import numpy as np
 
 NUMBER_SEQUENCES = 1    # how many random sequences do you need?
 LENGTH = [200]          # length of sequence(s) in bp. Specify length(s) in python list.
-DESIRED_GC_CONTENT = 52 # percent GC content.
-ACCEPTABLE_RANGE = 7    # accepatable upper and lower range for GC content.
+DESIRED_GC_CONTENT = 50 # percent GC content.
+ACCEPTABLE_RANGE = 3    # accepatable upper and lower range for GC content. 
 GC_WINDOW_SIZE = 50     # window size in bp for applying GC content.
 FORMAT = 'fasta'          # output format for sequence. Options: fasta or tab
 SEED = 321                # seed for reproducibility.
